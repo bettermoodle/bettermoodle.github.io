@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Better Moodle Privacy Policy</title>
+<title>Doodle Privacy Policy</title>
 <style>
   :root { --text: #2d3b45; --muted: #6b7780; --line: #e8eaec; --bg: #fff; --accent: #0374b5; }
   @media (prefers-color-scheme: dark) { :root { --text: #e8eaec; --muted: #a5adb3; --line: #2f3a42; --bg: #151b20; --accent: #6cb8ff; } }
@@ -19,43 +19,39 @@
 </head>
 <body>
 <main>
-  <h1>Better Moodle — Privacy Policy</h1>
-  <p class="muted">Effective 29 October 2026 · 日本語は下にあります</p>
-
-  <p>Better Moodle is a browser extension that shows your Waseda Moodle deadlines in one list. It is an independent project and is not affiliated with or endorsed by Waseda University or Moodle Pty Ltd.</p>
+  <h1>Doodle — Privacy Policy</h1>
+  <p class="muted">Effective 13 November 2026 · Doodle was called Better Moodle before version 2.2 · 日本語は下にあります</p>
+  <p>Doodle is a browser extension that makes Moodle easier to use: a cleaner design and dashboard, every deadline in one list, estimated grades, reminders, a built-in file viewer, and your weekly progress and streak. It is an independent project and is not affiliated with or endorsed by Moodle Pty Ltd or any university.</p>
 
   <h2>The short version</h2>
   <ul>
-    <li>Everything Better Moodle reads stays in your browser on your own device.</li>
-    <li>Better Moodle has no server. Nothing is sent to the developer or to anyone else.</li>
+    <li>Everything Doodle reads stays in your browser on your own device.</li>
+    <li>Doodle has no server. Nothing is sent to the developer or to anyone else.</li>
     <li>No analytics, no tracking, no ads, no selling or sharing of data.</li>
+    <li>It only reads the sites you allow: your Moodle, and class tools if you choose to.</li>
   </ul>
 
-  <h2>What Better Moodle reads</h2>
-  <p>While you are logged in to Waseda Moodle, Better Moodle uses your existing Moodle session to read pages you could open yourself, in order to find dates and deadlines:</p>
+  <h2>What Doodle reads</h2>
+  <p>While you are logged in to the Moodle you connected at setup, Doodle uses your existing Moodle session to read pages you could open yourself, to find dates, deadlines and grades:</p>
   <ul>
-    <li>Your Moodle timeline, calendar and notifications</li>
-    <li>Your courses' pages, assignment and quiz lists (including your submission status), forum and announcement posts, Moodle pages, and PDF files that look like syllabi or schedules</li>
-    <li>Syllabus pages your instructors link from Moodle, when they are public: Notion pages, Google Docs/Sheets/Slides, and Waseda syllabus pages</li>
-    <li>Public syllabus data from WasedaTime, for courses whose grading breakdown isn't on Moodle. Better Moodle downloads the whole public course list for your school and matches your course on your device; it never sends your name, courses or grades.</li>
+    <li>Your Moodle timeline, calendar, notifications and grades</li>
+    <li>Your courses’ pages, assignments and quizzes (including your submission status), forum and announcement posts, Moodle pages, and the files in your courses (PDF, Word, PowerPoint, Excel, OpenDocument, text and images). Scanned documents and images are read with text recognition that runs entirely on your device.</li>
+    <li>Syllabus pages your instructors link from Moodle, when they are public (for example Notion pages and Google Docs/Sheets/Slides)</li>
+    <li><b>Only if you allow class tools:</b> the page of a class tool (such as Gradescope, Pearson or Top Hat) at the moment you open it yourself, to pick up the due dates shown on it</li>
+    <li><b>Only if you connect Perusall:</b> your Perusall assignment list and due dates</li>
+    <li><b>Public syllabus data:</b> for universities that have a public syllabus service, the grading breakdown of courses that don’t post one on Moodle. Doodle downloads the public course list and matches your course on your device; it never sends your name, courses or grades.</li>
   </ul>
-  <p>Better Moodle never reads or stores your Moodle password. It does not read pages on any other website, apart from the public syllabus data listed below.</p>
+  <p>Doodle never reads or stores your Moodle password. When you set it up, it checks that the address you chose is a Moodle site by reading that site’s public information (its name, language and version).</p>
 
-  <h2>What Better Moodle stores, and where</h2>
+  <h2>What Doodle stores, and where</h2>
   <ul>
-    <li><strong>On your device</strong> (browser extension storage): the list of deadlines it found, your course list, which items you marked done, and scan history.</li>
-    <li><strong>In your browser's sync storage</strong>, if you have browser sync turned on: your Better Moodle settings, course colors, course nicknames and card order. This is synced by your browser provider (e.g. Google Chrome Sync) under your own account, not by Better Moodle.</li>
+    <li>On your device (browser extension storage): the deadlines it found, your course list, which items you marked done, files you opened in its viewer, and scan history.</li>
+    <li>In your browser’s sync storage, if browser sync is on: your settings, course colors, nicknames, card order, your own tasks and grade weights. This is synced by your browser provider (for example Google Chrome Sync) under your own account, not by Doodle.</li>
   </ul>
-  <p>Uninstalling Better Moodle deletes all of this data.</p>
+  <p>Uninstalling Doodle deletes all of this data.</p>
 
   <h2>Network requests</h2>
-  <p>Better Moodle only connects to:</p>
-  <ul>
-    <li><code>wsdmoodle.waseda.jp</code> — to read your Moodle pages</li>
-    <li><code>www.notion.so</code> / <code>*.notion.site</code>, <code>docs.google.com</code>, <code>syllabus.waseda.jp</code>, <code>www.wsl.waseda.jp</code> — only to read public syllabus pages linked from your Moodle courses</li>
-    <li><code>api.wasedatime.com</code> — public syllabus data (WasedaTime, a student-run copy of the Waseda syllabus), only for courses whose grading breakdown isn't on Moodle. The request names your school only (for example SILS), never you or your courses.</li>
-  </ul>
-  <p>These requests go directly from your browser to those sites. All of Better Moodle's code is included in the extension; it does not download or run remote code.</p>
+  <p>Doodle only connects to: your Moodle; public syllabus pages linked from your courses; class tool sites you allowed, only for the page you opened; Perusall, if you connected it; and public syllabus services (currently api.wasedatime.com; the request names your faculty only). These requests go directly from your browser to those sites. All of Doodle’s code is included in the extension; it does not download or run remote code.</p>
 
   <h2>Changes</h2>
   <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
@@ -64,13 +60,12 @@
   <p>Questions, problems or requests: email <a href="mailto:kdp.developer.team@gmail.com">kdp.developer.team@gmail.com</a>.</p>
 
   <h2>プライバシーポリシー（日本語）</h2>
-  <p>Better Moodle は、Waseda Moodle の締切をひとつのリストにまとめるブラウザ拡張機能です。早稲田大学、Moodle とは関係のない個人のプロジェクトです。</p>
   <ul>
-    <li>Better Moodle は、ログイン中の Moodle セッションを使って、あなた自身が開けるページ（タイムライン、カレンダー、通知、コースページ、課題・小テスト一覧、フォーラム、PDF、Moodle からリンクされた公開シラバス）を読み、日付と締切を探します。</li>
-    <li>読み取った内容はすべてあなたの端末のブラウザ内にのみ保存されます。開発者や第三者に送信されることはありません。サーバーはありません。</li>
-    <li>パスワードを読み取ったり保存したりすることはありません。分析・トラッキング・広告もありません。</li>
-    <li>設定・コースの色・ニックネームは、ブラウザの同期がオンの場合、ブラウザ提供元（Google Chrome 同期など）によりあなたのアカウントで同期されます。</li>
-    <li>通信先は wsdmoodle.waseda.jp と、コースからリンクされた公開シラバス（Notion、Google ドキュメント、早稲田シラバス）と、評価の配分が Moodle にないコースのための公開シラバスデータ（api.wasedatime.com、学部名のみを送信）のみです。</li>
+    <li>Doodle（旧 Better Moodle）は、Moodle をもっと使いやすくするブラウザ拡張機能です。Moodle Pty Ltd や大学とは関係のない個人のプロジェクトです。</li>
+    <li>ログイン中の Moodle セッションを使って、あなた自身が開けるページ（タイムライン、カレンダー、通知、成績、コースページ、課題・小テスト、フォーラム、コース内のファイル、Moodle からリンクされた公開シラバス）を読み、締切・日付・成績を探します。画像やスキャンした文書の文字認識は端末内で行います。</li>
+    <li>授業ツール（Gradescope など）を許可した場合は、あなたが開いたそのページだけを読み、締切を探します。Perusall を接続した場合は Perusall の課題一覧を読みます。</li>
+    <li>読み取った内容はすべてあなたの端末のブラウザ内にのみ保存されます。サーバーはなく、開発者や第三者に送信されることはありません。分析・トラッキング・広告もありません。パスワードを読み取ったり保存したりすることはありません。</li>
+    <li>設定・色・ニックネーム・自分のタスク・成績の配分は、ブラウザの同期がオンの場合、ブラウザ提供元によりあなたのアカウントで同期されます。</li>
     <li>拡張機能を削除すると、すべてのデータが削除されます。</li>
   </ul>
   <p>お問い合わせ：<a href="mailto:kdp.developer.team@gmail.com">kdp.developer.team@gmail.com</a></p>
