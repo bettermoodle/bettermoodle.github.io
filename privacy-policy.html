@@ -20,14 +20,15 @@
 <body>
 <main>
   <h1>Better Moodle — Privacy Policy</h1>
-  <p class="muted">Effective 13 November 2026 · 日本語は下にあります</p>
+  <p class="muted">Effective 16 November 2026 · 日本語は下にあります</p>
   <p>Better Moodle is a browser extension that makes Moodle easier to use: a cleaner design and dashboard, every deadline in one list, estimated grades, reminders, a built-in file viewer, and your weekly progress and streak. It is an independent project and is not affiliated with or endorsed by Moodle Pty Ltd or any university.</p>
 
   <h2>The short version</h2>
   <ul>
     <li>Everything Better Moodle reads stays in your browser on your own device.</li>
-    <li>Better Moodle has no server. Nothing is sent to the developer or to anyone else.</li>
-    <li>No analytics, no tracking, no ads, no selling or sharing of data.</li>
+    <li>Your courses, deadlines, grades and files are never sent anywhere.</li>
+    <li>Only anonymous error reports and simple feature-use counts are sent, to fix and improve Better Moodle. You can turn the counts off.</li>
+    <li>No ads, no selling or sharing of data.</li>
     <li>It only reads the sites you allow: your Moodle, and class tools if you choose to.</li>
   </ul>
 
@@ -50,8 +51,16 @@
   </ul>
   <p>Uninstalling Better Moodle deletes all of this data.</p>
 
+  <h2>Error reports and usage counts</h2>
+  <p>To find and fix problems, Better Moodle sends two small kinds of anonymous data. Neither ever includes your courses, assignment titles, deadlines, grades, files, name, email address or Moodle login.</p>
+  <ul>
+    <li><b>Error reports</b> (always on): when something in Better Moodle breaks, a short description of the error, the extension version, your school’s Moodle address, version and country, and your language. Course names and personal details are removed before anything is sent. Sent to Sentry.</li>
+    <li><b>Usage counts</b> (on by default, can be turned off): which features get used, such as opening the calendar or exporting deadlines, as simple counts. Sent to PostHog without your IP address. Turn them off any time in the popup under More settings → Share usage stats. At schools in the EU, EEA, UK and Switzerland they are off unless you turn them on.</li>
+  </ul>
+  <p>Both use a random ID created when you install Better Moodle, which isn’t linked to you. This data is used only to fix and improve Better Moodle. It is never sold, shared for advertising or used to identify you. Reports are kept for up to 90 days (usage counts up to 1 year) and then deleted.</p>
+
   <h2>Network requests</h2>
-  <p>Better Moodle only connects to: your Moodle; public syllabus pages linked from your courses; class tool sites you allowed, only for the page you opened; Perusall, if you connected it; and public syllabus services (currently api.wasedatime.com; the request names your faculty only). These requests go directly from your browser to those sites. All of Better Moodle’s code is included in the extension; it does not download or run remote code.</p>
+  <p>Better Moodle only connects to: your Moodle; public syllabus pages linked from your courses; class tool sites you allowed, only for the page you opened; Perusall, if you connected it; public syllabus services (currently api.wasedatime.com; the request names your faculty only); and, for error reports and usage counts, Sentry (sentry.io) and PostHog (posthog.com). These requests go directly from your browser to those sites. All of Better Moodle’s code is included in the extension; it does not download or run remote code.</p>
 
   <h2>Changes</h2>
   <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
@@ -64,8 +73,9 @@
     <li>Better Moodleは、Moodle をもっと使いやすくするブラウザ拡張機能です。Moodle Pty Ltd や大学とは関係のない個人のプロジェクトです。</li>
     <li>ログイン中の Moodle セッションを使って、あなた自身が開けるページ（タイムライン、カレンダー、通知、成績、コースページ、課題・小テスト、フォーラム、コース内のファイル、Moodle からリンクされた公開シラバス）を読み、締切・日付・成績を探します。画像やスキャンした文書の文字認識は端末内で行います。</li>
     <li>授業ツール（Gradescope など）を許可した場合は、あなたが開いたそのページだけを読み、締切を探します。Perusall を接続した場合は Perusall の課題一覧を読みます。</li>
-    <li>読み取った内容はすべてあなたの端末のブラウザ内にのみ保存されます。サーバーはなく、開発者や第三者に送信されることはありません。分析・トラッキング・広告もありません。パスワードを読み取ったり保存したりすることはありません。</li>
+    <li>読み取った内容はすべてあなたの端末のブラウザ内にのみ保存されます。コース・締切・成績・ファイルが外部に送信されることはありません。広告もありません。パスワードを読み取ったり保存したりすることはありません。</li>
     <li>設定・色・ニックネーム・自分のタスク・成績の配分は、ブラウザの同期がオンの場合、ブラウザ提供元によりあなたのアカウントで同期されます。</li>
+    <li>不具合を直すため、匿名のエラー報告（常に送信）と機能の利用回数（初期設定でオン・ポップアップの「その他の設定 → 利用状況を共有」でオフにできます。EU・英国・スイスなどの学校では、オンにした場合のみ）を送ります。コース・課題名・締切・成績・ファイル・氏名・メールアドレス・ログイン情報は送りません。送信先は Sentry（エラー）と PostHog（利用回数）で、販売や広告には使いません。</li>
     <li>拡張機能を削除すると、すべてのデータが削除されます。</li>
   </ul>
   <p>お問い合わせ：<a href="mailto:kdp.developer.team@gmail.com">kdp.developer.team@gmail.com</a></p>
