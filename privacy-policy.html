@@ -20,7 +20,7 @@
 <body>
 <main>
   <h1>Better Moodle — Privacy Policy</h1>
-  <p class="muted">Effective 16 November 2026 · 日本語は下にあります</p>
+  <p class="muted">Effective 17 November 2026 · 日本語は下にあります</p>
   <p>Better Moodle is a browser extension that makes Moodle easier to use: a cleaner design and dashboard, every deadline in one list, estimated grades, reminders, a built-in file viewer, and your weekly progress and streak. It is an independent project and is not affiliated with or endorsed by Moodle Pty Ltd or any university.</p>
 
   <h2>The short version</h2>
@@ -55,12 +55,13 @@
   <p>To find and fix problems, Better Moodle sends two small kinds of anonymous data. Neither ever includes your courses, assignment titles, deadlines, grades, files, name, email address or Moodle login.</p>
   <ul>
     <li><b>Error reports</b> (always on): when something in Better Moodle breaks, a short description of the error, the extension version, your school’s Moodle address, version and country, and your language. Course names and personal details are removed before anything is sent. Sent to Sentry.</li>
-    <li><b>Usage counts</b> (on by default, can be turned off): which features get used, such as opening the calendar or exporting deadlines, as simple counts. Sent to PostHog without your IP address. Turn them off any time in the popup under More settings → Share usage stats. At schools in the EU, EEA, UK and Switzerland they are off unless you turn them on.</li>
+    <li><b>Usage counts</b> (on by default, can be turned off): which features get used, such as opening the calendar or exporting deadlines, which setup steps were finished, how many courses and items a scan found, and how many days since you installed it, as simple counts. Item titles are never included. Sent to PostHog without your IP address. Turn them off any time in the popup under More settings → Share usage stats. At schools in the EU, EEA, UK and Switzerland they are off unless you turn them on.</li>
+    <li><b>Problem reports</b> (only when you send one): if you use Report a problem in the popup, your note, the same details as an error report, and whether your scans are working (counts only). Sent to Sentry.</li>
   </ul>
-  <p>Both use a random ID created when you install Better Moodle, which isn’t linked to you. This data is used only to fix and improve Better Moodle. It is never sold, shared for advertising or used to identify you. Reports are kept for up to 90 days (usage counts up to 1 year) and then deleted.</p>
+  <p>Both use a random ID created when you install Better Moodle, which isn’t linked to you. This data is used only to fix and improve Better Moodle. It is never sold, shared for advertising or used to identify you. If you remove Better Moodle, a short optional Google Form asks why; it doesn’t ask for your name or email. Reports are kept for up to 90 days (usage counts up to 1 year) and then deleted.</p>
 
   <h2>Network requests</h2>
-  <p>Better Moodle only connects to: your Moodle; public syllabus pages linked from your courses; class tool sites you allowed, only for the page you opened; Perusall, if you connected it; public syllabus services (currently api.wasedatime.com; the request names your faculty only); and, for error reports and usage counts, Sentry (sentry.io) and PostHog (posthog.com). These requests go directly from your browser to those sites. All of Better Moodle’s code is included in the extension; it does not download or run remote code.</p>
+  <p>Better Moodle only connects to: your Moodle; public syllabus pages linked from your courses; class tool sites you allowed, only for the page you opened; Perusall, if you connected it; public syllabus services (currently api.wasedatime.com; the request names your faculty only); and, for error reports and usage counts, Sentry (sentry.io) and PostHog (posthog.com). The removal survey opens on Google Forms (docs.google.com). These requests go directly from your browser to those sites. All of Better Moodle’s code is included in the extension; it does not download or run remote code.</p>
 
   <h2>Changes</h2>
   <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
@@ -75,7 +76,7 @@
     <li>授業ツール（Gradescope など）を許可した場合は、あなたが開いたそのページだけを読み、締切を探します。Perusall を接続した場合は Perusall の課題一覧を読みます。</li>
     <li>読み取った内容はすべてあなたの端末のブラウザ内にのみ保存されます。コース・締切・成績・ファイルが外部に送信されることはありません。広告もありません。パスワードを読み取ったり保存したりすることはありません。</li>
     <li>設定・色・ニックネーム・自分のタスク・成績の配分は、ブラウザの同期がオンの場合、ブラウザ提供元によりあなたのアカウントで同期されます。</li>
-    <li>不具合を直すため、匿名のエラー報告（常に送信）と機能の利用回数（初期設定でオン・ポップアップの「その他の設定 → 利用状況を共有」でオフにできます。EU・英国・スイスなどの学校では、オンにした場合のみ）を送ります。コース・課題名・締切・成績・ファイル・氏名・メールアドレス・ログイン情報は送りません。送信先は Sentry（エラー）と PostHog（利用回数）で、販売や広告には使いません。</li>
+    <li>不具合を直すため、匿名のエラー報告（常に送信）と機能の利用回数・インストールからの日数（初期設定でオン・ポップアップの「その他の設定 → 利用状況を共有」でオフにできます。EU・英国・スイスなどの学校では、オンにした場合のみ）を送ります。コース・課題名・締切・成績・ファイル・氏名・メールアドレス・ログイン情報は送りません。ポップアップの「問題を報告」を使った場合のみ、メモと同じ匿名情報・スキャン状況（件数のみ）を送ります。送信先は Sentry（エラー・報告）と PostHog（利用回数）で、販売や広告には使いません。アンインストール時には任意・匿名の Google フォームが開きます。</li>
     <li>拡張機能を削除すると、すべてのデータが削除されます。</li>
   </ul>
   <p>お問い合わせ：<a href="mailto:kdp.developer.team@gmail.com">kdp.developer.team@gmail.com</a></p>
